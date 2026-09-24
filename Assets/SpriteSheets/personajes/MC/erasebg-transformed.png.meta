@@ -1,0 +1,1425 @@
+fileFormatVersion: 2
+guid: b0245865eac35ed48b5b8dfde067f627
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1536996641685361034
+    second: erasebg-transformed_0
+  - first:
+      213: 1108315334394538923
+    second: erasebg-transformed_1
+  - first:
+      213: -228710743714197807
+    second: erasebg-transformed_2
+  - first:
+      213: -6430408527534854519
+    second: erasebg-transformed_3
+  - first:
+      213: -6621485674010474988
+    second: erasebg-transformed_4
+  - first:
+      213: -4705107138985097465
+    second: erasebg-transformed_5
+  - first:
+      213: 4165935194899390284
+    second: erasebg-transformed_6
+  - first:
+      213: -975052797340606253
+    second: erasebg-transformed_7
+  - first:
+      213: -881386968765379087
+    second: erasebg-transformed_8
+  - first:
+      213: -2722060147758008080
+    second: erasebg-transformed_9
+  - first:
+      213: -5114488592208321294
+    second: erasebg-transformed_10
+  - first:
+      213: -3920447075428271043
+    second: erasebg-transformed_11
+  - first:
+      213: 6729991130750531169
+    second: erasebg-transformed_12
+  - first:
+      213: -2915414650315009847
+    second: erasebg-transformed_13
+  - first:
+      213: 2294618663748447163
+    second: erasebg-transformed_14
+  - first:
+      213: -8271121013228813877
+    second: erasebg-transformed_15
+  - first:
+      213: -7461157384463759436
+    second: erasebg-transformed_16
+  - first:
+      213: -1532236305417180122
+    second: erasebg-transformed_17
+  - first:
+      213: -3199882060502202015
+    second: erasebg-transformed_18
+  - first:
+      213: -6738073299084897501
+    second: erasebg-transformed_19
+  - first:
+      213: -8849832762039969493
+    second: erasebg-transformed_20
+  - first:
+      213: 2539074222951250948
+    second: erasebg-transformed_21
+  - first:
+      213: 1759841306592190196
+    second: erasebg-transformed_22
+  - first:
+      213: 3591761510503794190
+    second: erasebg-transformed_23
+  - first:
+      213: -982270874962003442
+    second: erasebg-transformed_24
+  - first:
+      213: 7819370842022958967
+    second: erasebg-transformed_25
+  - first:
+      213: -735407337363056298
+    second: erasebg-transformed_26
+  - first:
+      213: -2218861038810374530
+    second: erasebg-transformed_27
+  - first:
+      213: 3563055189156167072
+    second: erasebg-transformed_28
+  - first:
+      213: -1897703941411418255
+    second: erasebg-transformed_29
+  - first:
+      213: 3301508252646340430
+    second: erasebg-transformed_30
+  - first:
+      213: -6871050278933290138
+    second: erasebg-transformed_31
+  - first:
+      213: 2497324228715791204
+    second: erasebg-transformed_32
+  - first:
+      213: -7890951515505520555
+    second: erasebg-transformed_33
+  - first:
+      213: -2319881299694714468
+    second: erasebg-transformed_34
+  - first:
+      213: -2455364952400418618
+    second: erasebg-transformed_35
+  - first:
+      213: -3777529213067077621
+    second: erasebg-transformed_36
+  - first:
+      213: -5608206959439907884
+    second: erasebg-transformed_37
+  - first:
+      213: 7666915646795135354
+    second: erasebg-transformed_38
+  - first:
+      213: 634199735031933502
+    second: erasebg-transformed_39
+  - first:
+      213: 5222828135130145774
+    second: erasebg-transformed_40
+  - first:
+      213: -9046575743035508232
+    second: erasebg-transformed_41
+  - first:
+      213: 6593964635116282862
+    second: erasebg-transformed_42
+  - first:
+      213: 5836010758337713677
+    second: erasebg-transformed_43
+  - first:
+      213: -3785127603408448015
+    second: erasebg-transformed_44
+  - first:
+      213: -3398550030447681621
+    second: erasebg-transformed_45
+  - first:
+      213: -3088644780198692274
+    second: erasebg-transformed_46
+  - first:
+      213: 6031026405097586805
+    second: erasebg-transformed_47
+  - first:
+      213: 2993755976612492830
+    second: erasebg-transformed_48
+  - first:
+      213: -7602858263261779343
+    second: erasebg-transformed_49
+  - first:
+      213: 3096961876714587454
+    second: erasebg-transformed_50
+  - first:
+      213: -2514531716784773370
+    second: erasebg-transformed_51
+  - first:
+      213: 1817475799650455583
+    second: erasebg-transformed_52
+  - first:
+      213: 2927173531186143070
+    second: erasebg-transformed_53
+  - first:
+      213: 3937348808820988768
+    second: erasebg-transformed_54
+  - first:
+      213: -453977843347839748
+    second: erasebg-transformed_55
+  - first:
+      213: 6397866645450546742
+    second: erasebg-transformed_56
+  - first:
+      213: -8594110801568069241
+    second: erasebg-transformed_57
+  - first:
+      213: 7422165693948856765
+    second: erasebg-transformed_58
+  - first:
+      213: -6008642431364874271
+    second: erasebg-transformed_59
+  - first:
+      213: -6290156483668581701
+    second: erasebg-transformed_60
+  - first:
+      213: 303613586893495495
+    second: erasebg-transformed_61
+  - first:
+      213: 5847667350577707027
+    second: erasebg-transformed_62
+  - first:
+      213: 6138809396651218268
+    second: erasebg-transformed_63
+  - first:
+      213: 2604647089076924678
+    second: erasebg-transformed_64
+  - first:
+      213: -5987282860364330702
+    second: erasebg-transformed_65
+  - first:
+      213: -7756098245660578272
+    second: erasebg-transformed_66
+  - first:
+      213: -363182470876698451
+    second: erasebg-transformed_67
+  - first:
+      213: 6470542076051759050
+    second: erasebg-transformed_68
+  - first:
+      213: 7714432389802139329
+    second: erasebg-transformed_69
+  - first:
+      213: 8440077970176852088
+    second: erasebg-transformed_70
+  - first:
+      213: -4586141552971675744
+    second: erasebg-transformed_71
+  - first:
+      213: 6813531541246909257
+    second: erasebg-transformed_72
+  - first:
+      213: -4701031218576614220
+    second: erasebg-transformed_73
+  - first:
+      213: 2076289737956329743
+    second: erasebg-transformed_74
+  - first:
+      213: 6949272512302037703
+    second: erasebg-transformed_75
+  - first:
+      213: -4150864846045006695
+    second: erasebg-transformed_76
+  - first:
+      213: -1361791449877612251
+    second: erasebg-transformed_77
+  - first:
+      213: -7768764637035723230
+    second: erasebg-transformed_78
+  - first:
+      213: 2036179065466127466
+    second: erasebg-transformed_79
+  - first:
+      213: 5375032019769413999
+    second: erasebg-transformed_80
+  - first:
+      213: -753584627778928240
+    second: erasebg-transformed_81
+  - first:
+      213: 6447376270477404567
+    second: erasebg-transformed_82
+  - first:
+      213: -6279676723033060282
+    second: erasebg-transformed_83
+  - first:
+      213: 6239389318975243590
+    second: erasebg-transformed_84
+  - first:
+      213: 2504162039770186494
+    second: erasebg-transformed_85
+  - first:
+      213: 8463686878357493943
+    second: erasebg-transformed_86
+  - first:
+      213: -2118716334749100731
+    second: erasebg-transformed_87
+  - first:
+      213: 3830301135951006980
+    second: erasebg-transformed_88
+  - first:
+      213: -441787965257237189
+    second: erasebg-transformed_89
+  - first:
+      213: 1344727094864750442
+    second: erasebg-transformed_90
+  - first:
+      213: 1586889215683678605
+    second: erasebg-transformed_91
+  - first:
+      213: -461091910041552717
+    second: erasebg-transformed_92
+  - first:
+      213: 1714625459754357346
+    second: erasebg-transformed_93
+  - first:
+      213: 7473436605401436212
+    second: erasebg-transformed_94
+  - first:
+      213: 8330363249196100754
+    second: erasebg-transformed_95
+  - first:
+      213: -4808648823697464641
+    second: erasebg-transformed_96
+  - first:
+      213: 3981787292508181574
+    second: erasebg-transformed_97
+  - first:
+      213: 7417446992027004569
+    second: erasebg-transformed_98
+  - first:
+      213: 9017478308903099903
+    second: erasebg-transformed_99
+  - first:
+      213: -5661230718432205700
+    second: erasebg-transformed_100
+  - first:
+      213: 2847874939103718759
+    second: erasebg-transformed_101
+  - first:
+      213: 4270332655388091198
+    second: erasebg-transformed_102
+  - first:
+      213: -8620066112694342727
+    second: erasebg-transformed_103
+  - first:
+      213: 2442844148023571130
+    second: erasebg-transformed_104
+  - first:
+      213: 5737603739637545799
+    second: erasebg-transformed_105
+  - first:
+      213: -5043178700393260716
+    second: erasebg-transformed_106
+  - first:
+      213: 5969580146363536647
+    second: erasebg-transformed_107
+  - first:
+      213: -1428266681680381801
+    second: erasebg-transformed_108
+  - first:
+      213: -7835157962673255011
+    second: erasebg-transformed_109
+  - first:
+      213: -588678239574164043
+    second: erasebg-transformed_110
+  - first:
+      213: -6007934807932500840
+    second: erasebg-transformed_111
+  - first:
+      213: -442100330997940598
+    second: erasebg-transformed_112
+  - first:
+      213: 7184733396282218803
+    second: erasebg-transformed_113
+  - first:
+      213: -1153591121267557765
+    second: erasebg-transformed_114
+  - first:
+      213: 4888648097189452620
+    second: erasebg-transformed_115
+  - first:
+      213: -7860190330840873898
+    second: erasebg-transformed_116
+  - first:
+      213: 4428805374647997887
+    second: erasebg-transformed_117
+  - first:
+      213: -4402723017617010417
+    second: erasebg-transformed_118
+  - first:
+      213: -4969479037722917276
+    second: erasebg-transformed_119
+  - first:
+      213: -7567378836681775104
+    second: erasebg-transformed_120
+  - first:
+      213: 5957358940189926298
+    second: erasebg-transformed_121
+  - first:
+      213: -4969783803013832432
+    second: erasebg-transformed_122
+  - first:
+      213: 1498191271001091231
+    second: erasebg-transformed_123
+  - first:
+      213: -2926869859527072390
+    second: erasebg-transformed_124
+  - first:
+      213: 2646912750412932680
+    second: erasebg-transformed_125
+  - first:
+      213: -2700842916002097775
+    second: erasebg-transformed_126
+  - first:
+      213: -7426470276152676517
+    second: erasebg-transformed_127
+  - first:
+      213: -2162796830263406127
+    second: erasebg-transformed_128
+  - first:
+      213: -124610081420893224
+    second: erasebg-transformed_129
+  - first:
+      213: 7347781234927809908
+    second: erasebg-transformed_130
+  - first:
+      213: 8611793521858011648
+    second: erasebg-transformed_131
+  - first:
+      213: -7924672320817139697
+    second: erasebg-transformed_132
+  - first:
+      213: -4403748334896971072
+    second: erasebg-transformed_133
+  - first:
+      213: 1715585708647145835
+    second: erasebg-transformed_134
+  - first:
+      213: 477875165673541468
+    second: erasebg-transformed_135
+  - first:
+      213: 5883857531092687274
+    second: erasebg-transformed_136
+  - first:
+      213: 5700985938250549258
+    second: erasebg-transformed_137
+  - first:
+      213: -2279854526551734477
+    second: erasebg-transformed_138
+  - first:
+      213: 1333484529677149092
+    second: erasebg-transformed_139
+  - first:
+      213: -8232541042292351398
+    second: erasebg-transformed_140
+  - first:
+      213: 1161181305515893453
+    second: erasebg-transformed_141
+  - first:
+      213: 1315558204718872126
+    second: erasebg-transformed_142
+  - first:
+      213: 2271801266079926600
+    second: erasebg-transformed_143
+  - first:
+      213: 5991144709286474271
+    second: erasebg-transformed_144
+  - first:
+      213: 6567085739536180969
+    second: erasebg-transformed_145
+  - first:
+      213: -7117159041234161942
+    second: erasebg-transformed_146
+  - first:
+      213: -151575784777135622
+    second: erasebg-transformed_147
+  - first:
+      213: 5664646588341281600
+    second: erasebg-transformed_148
+  - first:
+      213: 6271713650005040628
+    second: erasebg-transformed_149
+  - first:
+      213: 51353206532273271
+    second: erasebg-transformed_150
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: erasebg-transformed_0
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 232
+        width: 59
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81df906d42845510800000000000000
+      internalID: 1536996641685361034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 232
+        width: 63
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab64bdace6816f00800000000000000
+      internalID: 1108315334394538923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 232
+        width: 63
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de89945ac473dcf0800000000000000
+      internalID: -228710743714197807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_3
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 232
+        width: 63
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e64a3938992c6a0800000000000000
+      internalID: -6430408527534854519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 232
+        width: 63
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41684439cd1cb14a0800000000000000
+      internalID: -6621485674010474988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_5
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 423
+        width: 69
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70783ae5cf914beb0800000000000000
+      internalID: -4705107138985097465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 423
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f9649dcff50d930800000000000000
+      internalID: 4165935194899390284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_7
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 423
+        width: 81
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0234995aae772f0800000000000000
+      internalID: -975052797340606253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_8
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 423
+        width: 80
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdc411c83fa4c3f0800000000000000
+      internalID: -881386968765379087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_9
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 423
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8f2abb7bc493ad0800000000000000
+      internalID: -2722060147758008080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_10
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 423
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4a2ad19bfa509b0800000000000000
+      internalID: -5114488592208321294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 40
+        width: 77
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cf0640826c799c0800000000000000
+      internalID: -3920447075428271043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_12
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 29
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1663ae1c64bb56d50800000000000000
+      internalID: 6729991130750531169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_13
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 38
+        width: 82
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0110372dd5a87d0800000000000000
+      internalID: -2915414650315009847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_14
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 47
+        width: 62
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb25bb648f18df10800000000000000
+      internalID: 2294618663748447163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_15
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 51
+        width: 60
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc14a30c243173d80800000000000000
+      internalID: -8271121013228813877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_16
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 79
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b741c5c3e4a47890800000000000000
+      internalID: -7461157384463759436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_17
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 30
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ce6a7c2376cbae0800000000000000
+      internalID: -1532236305417180122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_45
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 417
+        width: 62
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafd5cbe0cce5d0d0800000000000000
+      internalID: -3398550030447681621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_46
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 417
+        width: 62
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a74eecfede225d0800000000000000
+      internalID: -3088644780198692274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_47
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 416
+        width: 62
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570c7dacf8282b350800000000000000
+      internalID: 6031026405097586805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_48
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 416
+        width: 62
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16b03af235fb8920800000000000000
+      internalID: 2993755976612492830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_49
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 417
+        width: 63
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a63a4f0b83d7690800000000000000
+      internalID: -7602858263261779343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_50
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 416
+        width: 60
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3500802b6e9afa20800000000000000
+      internalID: 3096961876714587454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_51
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 416
+        width: 60
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6072794e9b69a1dd0800000000000000
+      internalID: -2514531716784773370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_69
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 232
+        width: 61
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce9cedb26b2f0b60800000000000000
+      internalID: 7714432389802139329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_71
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 232
+        width: 69
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a707755e80ca50c0800000000000000
+      internalID: -4586141552971675744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_134
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 40
+        width: 82
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6166a9cc1cfec710800000000000000
+      internalID: 1715585708647145835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_135
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 40
+        width: 78
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fc3f86ee0c1a600800000000000000
+      internalID: 477875165673541468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_137
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 40
+        width: 72
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08cbe67188fd1f40800000000000000
+      internalID: 5700985938250549258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_138
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 40
+        width: 74
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337415523645c50e0800000000000000
+      internalID: -2279854526551734477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erasebg-transformed_139
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 40
+        width: 73
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3a2e85d1d718210800000000000000
+      internalID: 1333484529677149092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 566228ec5e4a9be47889a179675847fe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      erasebg-transformed_0: 1536996641685361034
+      erasebg-transformed_1: 1108315334394538923
+      erasebg-transformed_10: -5114488592208321294
+      erasebg-transformed_100: -5661230718432205700
+      erasebg-transformed_101: 2847874939103718759
+      erasebg-transformed_102: 4270332655388091198
+      erasebg-transformed_103: -8620066112694342727
+      erasebg-transformed_104: 2442844148023571130
+      erasebg-transformed_105: 5737603739637545799
+      erasebg-transformed_106: -5043178700393260716
+      erasebg-transformed_107: 5969580146363536647
+      erasebg-transformed_108: -1428266681680381801
+      erasebg-transformed_109: -7835157962673255011
+      erasebg-transformed_11: -3920447075428271043
+      erasebg-transformed_110: -588678239574164043
+      erasebg-transformed_111: -6007934807932500840
+      erasebg-transformed_112: -442100330997940598
+      erasebg-transformed_113: 7184733396282218803
+      erasebg-transformed_114: -1153591121267557765
+      erasebg-transformed_115: 4888648097189452620
+      erasebg-transformed_116: -7860190330840873898
+      erasebg-transformed_117: 4428805374647997887
+      erasebg-transformed_118: -4402723017617010417
+      erasebg-transformed_119: -4969479037722917276
+      erasebg-transformed_12: 6729991130750531169
+      erasebg-transformed_120: -7567378836681775104
+      erasebg-transformed_121: 5957358940189926298
+      erasebg-transformed_122: -4969783803013832432
+      erasebg-transformed_123: 1498191271001091231
+      erasebg-transformed_124: -2926869859527072390
+      erasebg-transformed_125: 2646912750412932680
+      erasebg-transformed_126: -2700842916002097775
+      erasebg-transformed_127: -7426470276152676517
+      erasebg-transformed_128: -2162796830263406127
+      erasebg-transformed_129: -124610081420893224
+      erasebg-transformed_13: -2915414650315009847
+      erasebg-transformed_130: 7347781234927809908
+      erasebg-transformed_131: 8611793521858011648
+      erasebg-transformed_132: -7924672320817139697
+      erasebg-transformed_133: -4403748334896971072
+      erasebg-transformed_134: 1715585708647145835
+      erasebg-transformed_135: 477875165673541468
+      erasebg-transformed_136: 5883857531092687274
+      erasebg-transformed_137: 5700985938250549258
+      erasebg-transformed_138: -2279854526551734477
+      erasebg-transformed_139: 1333484529677149092
+      erasebg-transformed_14: 2294618663748447163
+      erasebg-transformed_140: -8232541042292351398
+      erasebg-transformed_141: 1161181305515893453
+      erasebg-transformed_142: 1315558204718872126
+      erasebg-transformed_143: 2271801266079926600
+      erasebg-transformed_144: 5991144709286474271
+      erasebg-transformed_145: 6567085739536180969
+      erasebg-transformed_146: -7117159041234161942
+      erasebg-transformed_147: -151575784777135622
+      erasebg-transformed_148: 5664646588341281600
+      erasebg-transformed_149: 6271713650005040628
+      erasebg-transformed_15: -8271121013228813877
+      erasebg-transformed_150: 51353206532273271
+      erasebg-transformed_16: -7461157384463759436
+      erasebg-transformed_17: -1532236305417180122
+      erasebg-transformed_18: -3199882060502202015
+      erasebg-transformed_19: -6738073299084897501
+      erasebg-transformed_2: -228710743714197807
+      erasebg-transformed_20: -8849832762039969493
+      erasebg-transformed_21: 2539074222951250948
+      erasebg-transformed_22: 1759841306592190196
+      erasebg-transformed_23: 3591761510503794190
+      erasebg-transformed_24: -982270874962003442
+      erasebg-transformed_25: 7819370842022958967
+      erasebg-transformed_26: -735407337363056298
+      erasebg-transformed_27: -2218861038810374530
+      erasebg-transformed_28: 3563055189156167072
+      erasebg-transformed_29: -1897703941411418255
+      erasebg-transformed_3: -6430408527534854519
+      erasebg-transformed_30: 3301508252646340430
+      erasebg-transformed_31: -6871050278933290138
+      erasebg-transformed_32: 2497324228715791204
+      erasebg-transformed_33: -7890951515505520555
+      erasebg-transformed_34: -2319881299694714468
+      erasebg-transformed_35: -2455364952400418618
+      erasebg-transformed_36: -3777529213067077621
+      erasebg-transformed_37: -5608206959439907884
+      erasebg-transformed_38: 7666915646795135354
+      erasebg-transformed_39: 634199735031933502
+      erasebg-transformed_4: -6621485674010474988
+      erasebg-transformed_40: 5222828135130145774
+      erasebg-transformed_41: -9046575743035508232
+      erasebg-transformed_42: 6593964635116282862
+      erasebg-transformed_43: 5836010758337713677
+      erasebg-transformed_44: -3785127603408448015
+      erasebg-transformed_45: -3398550030447681621
+      erasebg-transformed_46: -3088644780198692274
+      erasebg-transformed_47: 6031026405097586805
+      erasebg-transformed_48: 2993755976612492830
+      erasebg-transformed_49: -7602858263261779343
+      erasebg-transformed_5: -4705107138985097465
+      erasebg-transformed_50: 3096961876714587454
+      erasebg-transformed_51: -2514531716784773370
+      erasebg-transformed_52: 1817475799650455583
+      erasebg-transformed_53: 2927173531186143070
+      erasebg-transformed_54: 3937348808820988768
+      erasebg-transformed_55: -453977843347839748
+      erasebg-transformed_56: 6397866645450546742
+      erasebg-transformed_57: -8594110801568069241
+      erasebg-transformed_58: 7422165693948856765
+      erasebg-transformed_59: -6008642431364874271
+      erasebg-transformed_6: 4165935194899390284
+      erasebg-transformed_60: -6290156483668581701
+      erasebg-transformed_61: 303613586893495495
+      erasebg-transformed_62: 5847667350577707027
+      erasebg-transformed_63: 6138809396651218268
+      erasebg-transformed_64: 2604647089076924678
+      erasebg-transformed_65: -5987282860364330702
+      erasebg-transformed_66: -7756098245660578272
+      erasebg-transformed_67: -363182470876698451
+      erasebg-transformed_68: 6470542076051759050
+      erasebg-transformed_69: 7714432389802139329
+      erasebg-transformed_7: -975052797340606253
+      erasebg-transformed_70: 8440077970176852088
+      erasebg-transformed_71: -4586141552971675744
+      erasebg-transformed_72: 6813531541246909257
+      erasebg-transformed_73: -4701031218576614220
+      erasebg-transformed_74: 2076289737956329743
+      erasebg-transformed_75: 6949272512302037703
+      erasebg-transformed_76: -4150864846045006695
+      erasebg-transformed_77: -1361791449877612251
+      erasebg-transformed_78: -7768764637035723230
+      erasebg-transformed_79: 2036179065466127466
+      erasebg-transformed_8: -881386968765379087
+      erasebg-transformed_80: 5375032019769413999
+      erasebg-transformed_81: -753584627778928240
+      erasebg-transformed_82: 6447376270477404567
+      erasebg-transformed_83: -6279676723033060282
+      erasebg-transformed_84: 6239389318975243590
+      erasebg-transformed_85: 2504162039770186494
+      erasebg-transformed_86: 8463686878357493943
+      erasebg-transformed_87: -2118716334749100731
+      erasebg-transformed_88: 3830301135951006980
+      erasebg-transformed_89: -441787965257237189
+      erasebg-transformed_9: -2722060147758008080
+      erasebg-transformed_90: 1344727094864750442
+      erasebg-transformed_91: 1586889215683678605
+      erasebg-transformed_92: -461091910041552717
+      erasebg-transformed_93: 1714625459754357346
+      erasebg-transformed_94: 7473436605401436212
+      erasebg-transformed_95: 8330363249196100754
+      erasebg-transformed_96: -4808648823697464641
+      erasebg-transformed_97: 3981787292508181574
+      erasebg-transformed_98: 7417446992027004569
+      erasebg-transformed_99: 9017478308903099903
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
