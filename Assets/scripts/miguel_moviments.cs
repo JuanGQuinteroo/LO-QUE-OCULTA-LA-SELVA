@@ -4,20 +4,23 @@ using UnityEngine.InputSystem;
 public class miguel_moviments : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private Animator animator; // Referencia al Animator
+    private Animator animator;
+    private CapsuleCollider2D col;
+
     private float horizontal;
     private bool jumpRequested;
     private bool isFacingRight = true;
     private bool isGrounded;
     private bool isCrouching;
-    private CapsuleCollider2D col;
+
     private Vector2 originalColliderSize;
     private Vector2 originalColliderOffset;
 
     [Header("Movimiento")]
-    [SerializeField] private float speed = 8f;
+    [SerializeField] private float walkSpeed = 4.5f;   // Velocidad al caminar
+    [SerializeField] private float runSpeed = 8.5f;    // Velocidad al correr (con Shift)
     [SerializeField] private float jumpForce = 12f;
-    [SerializeField] private float crouchSpeedMultiplier = 0.5f; // 0 = quieto al agacharse, 1 = misma velocidad
+    [SerializeField] private float crouchSpeedMultiplier = 0.5f;
 
     [Header("Detección de Suelo")]
     [SerializeField] private Transform groundCheck;
@@ -29,18 +32,16 @@ public class miguel_moviments : MonoBehaviour
     [SerializeField] private float interactRadius = 0.5f;
     [SerializeField] private LayerMask interactableLayer;
 
-    // Otros scripts (ej. la mecánica de La Llorona) podrán consultar esto para saber si Miguel está escondido
     public bool IsCrouching => isCrouching;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>(); // Obtenemos el componente Animator
-
+        animator = GetComponent<Animator>();
         col = GetComponent<CapsuleCollider2D>();
+
         if (col != null)
         {
-            // Guardamos las medidas iniciales para poder restaurarlas al levantarse
             originalColliderSize = col.size;
             originalColliderOffset = col.offset;
         }
@@ -52,7 +53,7 @@ public class miguel_moviments : MonoBehaviour
 
         if (Keyboard.current != null)
         {
-            // Movimiento horizontal
+            // 1. Movimiento Horizontal
             if (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed)
             {
                 horizontal = -1f;
@@ -62,48 +63,60 @@ public class miguel_moviments : MonoBehaviour
                 horizontal = 1f;
             }
 
-            // Agacharse / esconderse
+            // 2. Agacharse
             isCrouching = Keyboard.current.sKey.isPressed || Keyboard.current.downArrowKey.isPressed;
 
-            // Ajustar el hitbox a la mitad al agacharse
+            // Ajuste del Collider al agacharse
             if (col != null)
             {
                 if (isCrouching)
                 {
-                    // Reducir la altura a la mitad
                     col.size = new Vector2(originalColliderSize.x, originalColliderSize.y * 0.5f);
-                    // Bajar el centro para mantener los pies pegados al piso
                     col.offset = new Vector2(originalColliderOffset.x, originalColliderOffset.y - (originalColliderSize.y * 0.25f));
                 }
                 else
                 {
-                    // Restaurar tamaño y posición original del collider
                     col.size = originalColliderSize;
                     col.offset = originalColliderOffset;
                 }
             }
 
-            // Capturamos el salto solo si está en el suelo y no está agachado
+            // 3. Salto (solo si está en el suelo y no está agachado)
             if (Keyboard.current.spaceKey.wasPressedThisFrame && isGrounded && !isCrouching)
             {
                 jumpRequested = true;
             }
 
-            // Interactuar (hablar con la Ranita, abrir objetos, etc.)
+            // 4. Interacción
             if (Keyboard.current.eKey.wasPressedThisFrame)
             {
                 TryInteract();
             }
+
+            // 5. Control de Animaciones (Parámetros exactos de tu Animator)
+            if (animator != null)
+            {
+                bool isMoving = horizontal != 0f;
+                bool isHoldingShift = Keyboard.current.leftShiftKey.isPressed || Keyboard.current.rightShiftKey.isPressed;
+
+                // Está en el aire si NO está tocando suelo
+                animator.SetBool("jumping", !isGrounded);
+
+                // Corriendo: se mueve, tiene shift y no está agachado
+                bool isRunning = isMoving && isHoldingShift && !isCrouching;
+                animator.SetBool("running", isRunning);
+
+                // Caminando: se mueve, NO tiene shift y no está agachado
+                bool isWalking = isMoving && !isHoldingShift && !isCrouching;
+                animator.SetBool("walking", isWalking);
+
+                // >>> AGREGA ESTA LÍNEA AQUÍ <<<
+                // Solo se agacha si presiona la tecla Y está tocando el suelo
+                animator.SetBool("crouching", isCrouching && isGrounded);
+            }
         }
 
-        // Actualizar las animaciones según el estado
-        if (animator != null)
-        {
-            animator.SetBool("running", horizontal != 0f && !isCrouching);
-            animator.SetBool("crouching", isCrouching);
-        }
-
-        // Determinar si debemos girar el sprite
+        // Voltear el sprite
         if (horizontal > 0 && !isFacingRight)
         {
             Flip();
@@ -116,20 +129,23 @@ public class miguel_moviments : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Verificar si está tocando el suelo
+        // Detección del suelo
         if (groundCheck != null)
         {
             isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         }
 
-        // Movimiento Horizontal (más lento si está agachado)
-        float currentSpeed = isCrouching ? speed * crouchSpeedMultiplier : speed;
+        // Decidir la velocidad actual
+        bool isHoldingShift = Keyboard.current != null && (Keyboard.current.leftShiftKey.isPressed || Keyboard.current.rightShiftKey.isPressed);
+        float baseSpeed = isHoldingShift ? runSpeed : walkSpeed;
+        float currentSpeed = isCrouching ? baseSpeed * crouchSpeedMultiplier : baseSpeed;
+
+        // Aplicar movimiento horizontal
         rb.linearVelocity = new Vector2(horizontal * currentSpeed, rb.linearVelocity.y);
 
-        // Aplicar salto
+        // Aplicar impulso de salto
         if (jumpRequested)
         {
-            // Reseteamos la velocidad vertical antes de aplicar el impulso para un salto consistente
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             jumpRequested = false;
@@ -158,14 +174,12 @@ public class miguel_moviments : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        // Visualizar el rango de detección del suelo en el editor
         if (groundCheck != null)
         {
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
 
-        // Visualizar el rango de interacción
         if (interactPoint != null)
         {
             Gizmos.color = Color.yellow;

@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 0304aae6dcce25f45b5d92c225743d26
+guid: 351a90c0c0381b44f8334217515f5080
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2270628909593651765
-    second: 5c1cd2237f4b43db7780df6fa7fe6770_0
+      213: -424789121686966190
+    second: capa5_arboles_cercanos_0
+  - first:
+      213: -7352992842103601840
+    second: capa5_arboles_cercanos_1
+  - first:
+      213: 1758867701996104807
+    second: capa5_arboles_cercanos_2
+  - first:
+      213: -6648704391752308778
+    second: capa5_arboles_cercanos_3
+  - first:
+      213: 5982523928527265427
+    second: capa5_arboles_cercanos_4
+  - first:
+      213: -1219601970928859907
+    second: capa5_arboles_cercanos_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,23 +115,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 5c1cd2237f4b43db7780df6fa7fe6770_0
+      name: capa5_arboles_cercanos_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1060
-        height: 1884
+        width: 519
+        height: 211
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53aef0586f4e28f10800000000000000
-      internalID: 2270628909593651765
+      spriteID: 250f5616b88da1af0800000000000000
+      internalID: -424789121686966190
       vertices: []
       indices: 
       edges: []
@@ -125,7 +140,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 83d48e923007a7e42ba9a032d3380e1f
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +150,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      5c1cd2237f4b43db7780df6fa7fe6770_0: 2270628909593651765
+      capa5_arboles_cercanos_0: -424789121686966190
+      capa5_arboles_cercanos_1: -7352992842103601840
+      capa5_arboles_cercanos_2: 1758867701996104807
+      capa5_arboles_cercanos_3: -6648704391752308778
+      capa5_arboles_cercanos_4: 5982523928527265427
+      capa5_arboles_cercanos_5: -1219601970928859907
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
