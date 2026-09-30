@@ -38123,7 +38123,7 @@ TilemapRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.0625, y: 0.08333331, z: 0}
@@ -43114,7 +43114,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -5799696374038219005, guid: 14c96e883b56bbc4dbc16ecfba309b39, type: 3}
+  m_Sprite: {fileID: -636434663564626735, guid: ed0b28ae2d5200b4592a8845437783be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -43427,7 +43427,7 @@ SpriteRenderer:
   m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -424789121686966190, guid: 351a90c0c0381b44f8334217515f5080, type: 3}
-  m_Color: {r: 0.15472588, g: 0.5754717, b: 0.1547259, a: 1}
+  m_Color: {r: 0.10524209, g: 0.4056604, b: 0.10524211, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
