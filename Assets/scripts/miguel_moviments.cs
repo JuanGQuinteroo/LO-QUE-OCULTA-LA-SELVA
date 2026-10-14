@@ -13,6 +13,8 @@ public class miguel_moviments : MonoBehaviour
     private bool isGrounded;
     private bool isCrouching;
 
+    private bool lastCrouchingState = false;
+
     private Vector2 originalColliderSize;
     private Vector2 originalColliderOffset;
 
@@ -21,6 +23,7 @@ public class miguel_moviments : MonoBehaviour
     [SerializeField] private float runSpeed = 8.5f;    // Velocidad al correr (con Shift)
     [SerializeField] private float jumpForce = 12f;
     [SerializeField] private float crouchSpeedMultiplier = 0.5f;
+    [SerializeField] private float crouchOffsetAdjustment = 0.2f; // <--- AÑADE ESTA LÍNEA AQUí
 
     [Header("Detección de Suelo")]
     [SerializeField] private Transform groundCheck;
@@ -66,21 +69,6 @@ public class miguel_moviments : MonoBehaviour
             // 2. Agacharse
             isCrouching = Keyboard.current.sKey.isPressed || Keyboard.current.downArrowKey.isPressed;
 
-            // Ajuste del Collider al agacharse
-            if (col != null)
-            {
-                if (isCrouching)
-                {
-                    col.size = new Vector2(originalColliderSize.x, originalColliderSize.y * 0.5f);
-                    col.offset = new Vector2(originalColliderOffset.x, originalColliderOffset.y - (originalColliderSize.y * 0.25f));
-                }
-                else
-                {
-                    col.size = originalColliderSize;
-                    col.offset = originalColliderOffset;
-                }
-            }
-
             // 3. Salto (solo si está en el suelo y no está agachado)
             if (Keyboard.current.spaceKey.wasPressedThisFrame && isGrounded && !isCrouching)
             {
@@ -99,19 +87,18 @@ public class miguel_moviments : MonoBehaviour
                 bool isMoving = horizontal != 0f;
                 bool isHoldingShift = Keyboard.current.leftShiftKey.isPressed || Keyboard.current.rightShiftKey.isPressed;
 
-                // Está en el aire si NO está tocando suelo
-                animator.SetBool("jumping", !isGrounded);
+                // Está en el aire si NO está tocando suelo (y protegido con !isCrouching para evitar el bug de caída)
+                animator.SetBool("jumping", !isGrounded && !isCrouching);
 
-                // Corriendo: se mueve, tiene shift y no está agachado
+                // Corriendo
                 bool isRunning = isMoving && isHoldingShift && !isCrouching;
                 animator.SetBool("running", isRunning);
 
-                // Caminando: se mueve, NO tiene shift y no está agachado
+                // Caminando
                 bool isWalking = isMoving && !isHoldingShift && !isCrouching;
                 animator.SetBool("walking", isWalking);
 
-                // >>> AGREGA ESTA LÍNEA AQUÍ <<<
-                // Solo se agacha si presiona la tecla Y está tocando el suelo
+                // Agachándose
                 animator.SetBool("crouching", isCrouching && isGrounded);
             }
         }
