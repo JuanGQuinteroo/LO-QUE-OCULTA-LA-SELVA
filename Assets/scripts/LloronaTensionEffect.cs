@@ -17,6 +17,7 @@ public class LloronaTensionEffect : MonoBehaviour
     {
         if (postProcessVolume == null || playerTransform == null) return;
 
+        // Calculamos la distancia exacta entre La Llorona y el jugador
         float distance = Vector2.Distance(transform.position, playerTransform.position);
 
         // Calcula un valor entre 0 y 1 dependiendo de qué tan cerca está Miguel
