@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 140
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -118,10 +118,10 @@ TextureImporter:
       name: agachado_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 274
-        width: 193
-        height: 333
+        x: 0
+        y: 304
+        width: 202
+        height: 389
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,10 +140,10 @@ TextureImporter:
       name: agachado_1
       rect:
         serializedVersion: 2
-        x: 220
-        y: 274
-        width: 197
-        height: 333
+        x: 221
+        y: 304
+        width: 195
+        height: 392
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: agachado_2
       rect:
         serializedVersion: 2
-        x: 443
-        y: 274
-        width: 194
-        height: 333
+        x: 444
+        y: 304
+        width: 192
+        height: 394
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +184,10 @@ TextureImporter:
       name: agachado_3
       rect:
         serializedVersion: 2
-        x: 648
-        y: 274
-        width: 197
-        height: 333
+        x: 649
+        y: 304
+        width: 195
+        height: 392
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,10 +206,10 @@ TextureImporter:
       name: agachado_4
       rect:
         serializedVersion: 2
-        x: 866
-        y: 274
-        width: 184
-        height: 333
+        x: 867
+        y: 304
+        width: 182
+        height: 394
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +228,10 @@ TextureImporter:
       name: agachado_5
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 274
-        width: 204
-        height: 333
+        x: 1061
+        y: 302
+        width: 203
+        height: 399
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,7 +258,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       agachado_0: -1497065077472349854
       agachado_1: -2373412612708768877

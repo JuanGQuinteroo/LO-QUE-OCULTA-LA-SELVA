@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Tilemaps;
 
 public class miguel_moviments : MonoBehaviour
 {
@@ -12,6 +13,12 @@ public class miguel_moviments : MonoBehaviour
     private bool isFacingRight = true;
     private bool isGrounded;
     private bool isCrouching;
+    private bool isHiding = false;
+    private bool isInHidingZone = false; // Detecta si está físicamente sobre los arbustos
+    public bool IsHiding => isHiding; // Propiedad pública para que La Llorona pueda leerla
+    private SpriteRenderer spriteRenderer;
+    private int originalSortingOrder; // Para recordar cuál era tu capa normal
+
 
     private bool lastCrouchingState = false;
 
@@ -42,6 +49,12 @@ public class miguel_moviments : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         col = GetComponent<CapsuleCollider2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (spriteRenderer != null)
+        {
+            originalSortingOrder = spriteRenderer.sortingOrder; // Guardamos el orden original (ej. 0)
+        }
 
         if (col != null)
         {
@@ -81,6 +94,31 @@ public class miguel_moviments : MonoBehaviour
                 TryInteract();
             }
 
+            // Presionar 'F' para ocultarse o salir del escondite
+            if (isInHidingZone && Keyboard.current != null && Keyboard.current.fKey.wasPressedThisFrame)
+            {
+                isHiding = !isHiding;
+
+                if (spriteRenderer != null)
+                {
+                    if (isHiding)
+                    {
+                        spriteRenderer.sortingOrder = -1; // Se pone detrás de los arbustos
+
+                        // >>> CONGELA LA ALTURA Y (No sube ni baja por nada del mundo) <<<
+                        rb.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
+                        rb.linearVelocity = new Vector2(0f, 0f); // Detiene cualquier movimiento previo
+                    }
+                    else
+                    {
+                        spriteRenderer.sortingOrder = originalSortingOrder; // Regresa al frente
+
+                        // >>> LIBERA LA ALTURA Y (Vuelve a aplicarle gravedad y movimiento) <<<
+                        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+                    }
+                }
+            }
+
             // 5. Control de Animaciones (Parámetros exactos de tu Animator)
             if (animator != null)
             {
@@ -100,6 +138,9 @@ public class miguel_moviments : MonoBehaviour
 
                 // Agachándose
                 animator.SetBool("crouching", isCrouching && isGrounded);
+
+                // Envía el estado de oculto al Animator
+                animator.SetBool("isHiding", isHiding);
             }
         }
 
@@ -171,6 +212,35 @@ public class miguel_moviments : MonoBehaviour
         {
             Gizmos.color = Color.yellow;
             Gizmos.DrawWireSphere(interactPoint.position, interactRadius);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // Si entra al área de los arbustos
+        if (collision.gameObject.name == "Hidding" || collision.GetComponent<TilemapCollider2D>() != null)
+        {
+            isInHidingZone = true; // Ya está en la zona, listo para presionar 'F'
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "Hidding" || collision.GetComponent<TilemapCollider2D>() != null)
+        {
+            isInHidingZone = false;
+            isHiding = false;
+
+            if (spriteRenderer != null)
+            {
+                spriteRenderer.sortingOrder = originalSortingOrder;
+            }
+
+            // Liberamos la posición Y al salir del escondite
+            if (rb != null)
+            {
+                rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+            }
         }
     }
 }
