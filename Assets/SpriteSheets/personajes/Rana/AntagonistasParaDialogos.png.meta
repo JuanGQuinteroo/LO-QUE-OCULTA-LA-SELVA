@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: cb88951471b02b646ae8963058cc7373
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2480977818010593304
+    second: AntagonistasParaDialogos_0
+  - first:
+      213: 2704927991928300174
+    second: AntagonistasParaDialogos_1
+  - first:
+      213: -154809146725036345
+    second: AntagonistasParaDialogos_2
+  - first:
+      213: -3183219413416399241
+    second: AntagonistasParaDialogos_3
+  - first:
+      213: 7883263300309623186
+    second: AntagonistasParaDialogos_4
+  - first:
+      213: -1832665933670423809
+    second: AntagonistasParaDialogos_5
+  - first:
+      213: -1836389872774445487
+    second: AntagonistasParaDialogos_6
+  - first:
+      213: -5685949219165461176
+    second: AntagonistasParaDialogos_7
+  - first:
+      213: -4216957897748373718
+    second: AntagonistasParaDialogos_8
+  - first:
+      213: 9016753951673362796
+    second: AntagonistasParaDialogos_9
+  - first:
+      213: 4556119076303359727
+    second: AntagonistasParaDialogos_10
+  - first:
+      213: -6532358130210218776
+    second: AntagonistasParaDialogos_11
+  - first:
+      213: -624919225252618175
+    second: AntagonistasParaDialogos_12
+  - first:
+      213: 8742253971544033097
+    second: AntagonistasParaDialogos_13
+  - first:
+      213: 7511820512870601443
+    second: AntagonistasParaDialogos_14
+  - first:
+      213: -5063895133962590972
+    second: AntagonistasParaDialogos_15
+  - first:
+      213: -9029153491296534192
+    second: AntagonistasParaDialogos_16
+  - first:
+      213: -6775982476824960107
+    second: AntagonistasParaDialogos_17
+  - first:
+      213: 2272767508024725797
+    second: AntagonistasParaDialogos_18
+  - first:
+      213: -4952062813475089470
+    second: AntagonistasParaDialogos_19
+  - first:
+      213: -347871157087900839
+    second: AntagonistasParaDialogos_20
+  - first:
+      213: 8534866023240870725
+    second: AntagonistasParaDialogos_21
+  - first:
+      213: 1343318300977707630
+    second: AntagonistasParaDialogos_22
+  - first:
+      213: -2119690882208749409
+    second: AntagonistasParaDialogos_23
+  - first:
+      213: -7445034104064469470
+    second: AntagonistasParaDialogos_24
+  - first:
+      213: 5698999731458661778
+    second: AntagonistasParaDialogos_25
+  - first:
+      213: 4707389319800269240
+    second: AntagonistasParaDialogos_26
+  - first:
+      213: 5753681785663613771
+    second: AntagonistasParaDialogos_27
+  - first:
+      213: -4381685786355089257
+    second: AntagonistasParaDialogos_28
+  - first:
+      213: -5018226933319430160
+    second: AntagonistasParaDialogos_29
+  - first:
+      213: 5526600924272891616
+    second: AntagonistasParaDialogos_30
+  - first:
+      213: 7546741425127084416
+    second: AntagonistasParaDialogos_31
+  - first:
+      213: -3380977819145210978
+    second: AntagonistasParaDialogos_32
+  - first:
+      213: -3373381046519962658
+    second: AntagonistasParaDialogos_33
+  - first:
+      213: 5276128283945272275
+    second: AntagonistasParaDialogos_34
+  - first:
+      213: -1648499352101393510
+    second: AntagonistasParaDialogos_35
+  - first:
+      213: -6780753254361279671
+    second: AntagonistasParaDialogos_36
+  - first:
+      213: -1048494259639996145
+    second: AntagonistasParaDialogos_37
+  - first:
+      213: 1564268959227964723
+    second: AntagonistasParaDialogos_38
+  - first:
+      213: 3287825525001940454
+    second: AntagonistasParaDialogos_39
+  - first:
+      213: -663187128745438261
+    second: AntagonistasParaDialogos_40
+  - first:
+      213: -1811909959412616471
+    second: AntagonistasParaDialogos_41
+  - first:
+      213: -7650656386127996371
+    second: AntagonistasParaDialogos_42
+  - first:
+      213: -5322761460788737084
+    second: AntagonistasParaDialogos_43
+  - first:
+      213: -1141270949191229255
+    second: AntagonistasParaDialogos_44
+  - first:
+      213: -3324481269844669175
+    second: AntagonistasParaDialogos_45
+  - first:
+      213: 1564703305325882792
+    second: AntagonistasParaDialogos_46
+  - first:
+      213: -3290065320696907612
+    second: AntagonistasParaDialogos_47
+  - first:
+      213: 3034743497103606707
+    second: AntagonistasParaDialogos_48
+  - first:
+      213: -7755932694579914245
+    second: AntagonistasParaDialogos_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 498
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81825224e243e6220800000000000000
+      internalID: 2480977818010593304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_1
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 46
+        width: 407
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82a5e56da5d98520800000000000000
+      internalID: 2704927991928300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_2
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 46
+        width: 399
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce0979b6e10addf0800000000000000
+      internalID: -154809146725036345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_3
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 3
+        width: 458
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e20351fcee2d3d0800000000000000
+      internalID: -3183219413416399241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29124dd443af66d60800000000000000
+      internalID: 7883263300309623186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 3
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff26d9f0b001196e0800000000000000
+      internalID: -1832665933670423809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156872ce325d386e0800000000000000
+      internalID: -1836389872774445487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_7
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845abb48f437711b0800000000000000
+      internalID: -5685949219165461176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_8
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 3
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f1ee7622b5a75c0800000000000000
+      internalID: -4216957897748373718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_9
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69279c32f1f12d70800000000000000
+      internalID: 9016753951673362796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_10
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 3
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee417919269a3f30800000000000000
+      internalID: 4556119076303359727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_11
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec5f27f3e66855a0800000000000000
+      internalID: -6532358130210218776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_12
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 3
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140618d8647d357f0800000000000000
+      internalID: -624919225252618175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_13
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 3
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947412e2ba9b25970800000000000000
+      internalID: 8742253971544033097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_14
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2152605f85f3860800000000000000
+      internalID: 7511820512870601443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_15
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405a450943e69b9b0800000000000000
+      internalID: -5063895133962590972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_16
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051cac8fcb002b280800000000000000
+      internalID: -9029153491296534192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_17
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 3
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593a39886dfd6f1a0800000000000000
+      internalID: -6775982476824960107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_18
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 3
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5211dd4c10e7a8f10800000000000000
+      internalID: 2272767508024725797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_19
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c35569bb1db64bb0800000000000000
+      internalID: -4952062813475089470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_20
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 3
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95beb26960d1c2bf0800000000000000
+      internalID: -347871157087900839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_21
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ba2d0bd6fe17670800000000000000
+      internalID: 8534866023240870725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_22
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6abe06a0ec64a210800000000000000
+      internalID: 1343318300977707630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_23
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 3
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98205c8f585592e0800000000000000
+      internalID: -2119690882208749409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_24
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22691968deceda890800000000000000
+      internalID: -7445034104064469470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_25
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dd3a8af0ae61f40800000000000000
+      internalID: 5698999731458661778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_26
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 3
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9a92245a1045140800000000000000
+      internalID: 4707389319800269240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_27
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 3
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b6d19891f29df40800000000000000
+      internalID: 5753681785663613771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_28
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7904de21eff1133c0800000000000000
+      internalID: -4381685786355089257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_29
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff823d113dab5ab0800000000000000
+      internalID: -5018226933319430160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_30
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e691aa624e62bc40800000000000000
+      internalID: 5526600924272891616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_31
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 3
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081dc6087596bb860800000000000000
+      internalID: 7546741425127084416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_32
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93ff50369a5411d0800000000000000
+      internalID: -3380977819145210978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_33
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 3
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed36426afc75f21d0800000000000000
+      internalID: -3373381046519962658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_34
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d303f958b2983940800000000000000
+      internalID: 5276128283945272275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_35
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 3
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9be889c29a5f19e0800000000000000
+      internalID: -1648499352101393510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_36
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 3
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943d83457dce5e1a0800000000000000
+      internalID: -6780753254361279671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_37
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 3
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f013f19a6000371f0800000000000000
+      internalID: -1048494259639996145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_38
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 3
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33de3ff945665b510800000000000000
+      internalID: 1564268959227964723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_39
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 3
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ede33535e3b0ad20800000000000000
+      internalID: 3287825525001940454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_40
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc35483f1d2ebc6f0800000000000000
+      internalID: -663187128745438261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_41
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2f738ed7dcad6e0800000000000000
+      internalID: -1811909959412616471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_42
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a544e3d8863d590800000000000000
+      internalID: -7650656386127996371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_43
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 3
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb4c8117a0c126b0800000000000000
+      internalID: -5322761460788737084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_44
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 3
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0ebf05e146920f0800000000000000
+      internalID: -1141270949191229255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_45
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d087026e11dd1d0800000000000000
+      internalID: -3324481269844669175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_46
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad24d4bd51f6b510800000000000000
+      internalID: 1564703305325882792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_47
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 3
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a87708b5075752d0800000000000000
+      internalID: -3290065320696907612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_48
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 3
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b38941c1239d1a20800000000000000
+      internalID: 3034743497103606707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AntagonistasParaDialogos_49
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 3
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9d9b59e446d5490800000000000000
+      internalID: -7755932694579914245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AntagonistasParaDialogos_0: 2480977818010593304
+      AntagonistasParaDialogos_1: 2704927991928300174
+      AntagonistasParaDialogos_10: 4556119076303359727
+      AntagonistasParaDialogos_11: -6532358130210218776
+      AntagonistasParaDialogos_12: -624919225252618175
+      AntagonistasParaDialogos_13: 8742253971544033097
+      AntagonistasParaDialogos_14: 7511820512870601443
+      AntagonistasParaDialogos_15: -5063895133962590972
+      AntagonistasParaDialogos_16: -9029153491296534192
+      AntagonistasParaDialogos_17: -6775982476824960107
+      AntagonistasParaDialogos_18: 2272767508024725797
+      AntagonistasParaDialogos_19: -4952062813475089470
+      AntagonistasParaDialogos_2: -154809146725036345
+      AntagonistasParaDialogos_20: -347871157087900839
+      AntagonistasParaDialogos_21: 8534866023240870725
+      AntagonistasParaDialogos_22: 1343318300977707630
+      AntagonistasParaDialogos_23: -2119690882208749409
+      AntagonistasParaDialogos_24: -7445034104064469470
+      AntagonistasParaDialogos_25: 5698999731458661778
+      AntagonistasParaDialogos_26: 4707389319800269240
+      AntagonistasParaDialogos_27: 5753681785663613771
+      AntagonistasParaDialogos_28: -4381685786355089257
+      AntagonistasParaDialogos_29: -5018226933319430160
+      AntagonistasParaDialogos_3: -3183219413416399241
+      AntagonistasParaDialogos_30: 5526600924272891616
+      AntagonistasParaDialogos_31: 7546741425127084416
+      AntagonistasParaDialogos_32: -3380977819145210978
+      AntagonistasParaDialogos_33: -3373381046519962658
+      AntagonistasParaDialogos_34: 5276128283945272275
+      AntagonistasParaDialogos_35: -1648499352101393510
+      AntagonistasParaDialogos_36: -6780753254361279671
+      AntagonistasParaDialogos_37: -1048494259639996145
+      AntagonistasParaDialogos_38: 1564268959227964723
+      AntagonistasParaDialogos_39: 3287825525001940454
+      AntagonistasParaDialogos_4: 7883263300309623186
+      AntagonistasParaDialogos_40: -663187128745438261
+      AntagonistasParaDialogos_41: -1811909959412616471
+      AntagonistasParaDialogos_42: -7650656386127996371
+      AntagonistasParaDialogos_43: -5322761460788737084
+      AntagonistasParaDialogos_44: -1141270949191229255
+      AntagonistasParaDialogos_45: -3324481269844669175
+      AntagonistasParaDialogos_46: 1564703305325882792
+      AntagonistasParaDialogos_47: -3290065320696907612
+      AntagonistasParaDialogos_48: 3034743497103606707
+      AntagonistasParaDialogos_49: -7755932694579914245
+      AntagonistasParaDialogos_5: -1832665933670423809
+      AntagonistasParaDialogos_6: -1836389872774445487
+      AntagonistasParaDialogos_7: -5685949219165461176
+      AntagonistasParaDialogos_8: -4216957897748373718
+      AntagonistasParaDialogos_9: 9016753951673362796
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

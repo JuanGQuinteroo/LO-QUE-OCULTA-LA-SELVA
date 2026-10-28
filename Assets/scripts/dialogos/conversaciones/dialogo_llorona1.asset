@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adcac72487b1e34aa5d3edc54efc136, type: 3}
+  m_Name: dialogo_llorona1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: ???
+    portrait: {fileID: -154809146725036345, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: "\xA1\xA1espera!! \xA1\xA1no puedes abandonarme!! \xA1\xA1te lo juro, la
+      salida ya esta cerca!!"
+  - speakerName: miguel
+    portrait: {fileID: -5202054706885358483, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: "\xA1\xA1llevas diciendo eso por horas y solo siento que estoy mas perdido
+      que en el inicio!!"
+  - speakerName: ???
+    portrait: {fileID: -154809146725036345, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: no... no puedes hacerme esto... no puedo perderlos... no puedo perderte
+      esta vez...
+  - speakerName: 'miguel '
+    portrait: {fileID: -5202054706885358483, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: "\xBFque le pasa vieja loka? yo a usted ni la conozco, nunca en la vida
+      la he-"
+  - speakerName: '??? '
+    portrait: {fileID: -154809146725036345, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: aaaayyyyyyyyyyyyyyy.........................
+  - speakerName: '??? '
+    portrait: {fileID: -154809146725036345, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: "aaayyy.... mi ni\xF1o... donde esta.... ayy... mis ni\xF1os...."
+  - speakerName: '??? '
+    portrait: {fileID: -2410446748868070700, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: "donde... donde estan... \xBF\xA1DONDE ESTAN MIS NI\xD1OS!?"
+  - speakerName: 'miguel '
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: AAAAHHHHHHHHHHHHHH!!!!!!!!!!!

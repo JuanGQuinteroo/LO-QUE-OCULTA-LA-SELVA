@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adcac72487b1e34aa5d3edc54efc136, type: 3}
+  m_Name: dialogo_1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: ?????
+    portrait: {fileID: -154809146725036345, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: "oye... estas bien? \n"
+  - speakerName: miguel
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: "\xBFq-quien anda ahi...?"
+  - speakerName: ?????
+    portrait: {fileID: -154809146725036345, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: tu peor pesadilla....
+  - speakerName: rana
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: no, en serio, estas bien?
+  - speakerName: rana
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: "no veo a muchos ni\xF1os caer desde tan alto desde la ultima vez que le
+      robamos mangos a un vecino"
+  - speakerName: miguel
+    portrait: {fileID: -5202054706885358483, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: una rana???
+  - speakerName: miguel
+    portrait: {fileID: -5202054706885358483, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: que tan duro me golpie la cabeza? las ranas no hablan...
+  - speakerName: miguel
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: "\xBFe-eres amigo de esa cosa?"
+  - speakerName: rana
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: "\xBFde quien? espera, alguien muy aterrador esta rondando por aqui"
+  - speakerName: rana
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: lo mejor sera alejarnos lo mas que podamos aqui, te espero en la salida

@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: 307333fff47e1e541aaf8d26987edd2a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4867927640115613206
+    second: capa4_arboles_medios_0
+  - first:
+      213: 8359367582321462825
+    second: capa4_arboles_medios_1
+  - first:
+      213: -4383283776885802397
+    second: capa4_arboles_medios_2
+  - first:
+      213: -1377516198960743538
+    second: capa4_arboles_medios_3
+  - first:
+      213: 2254817675077043763
+    second: capa4_arboles_medios_4
+  - first:
+      213: 2048486641574153342
+    second: capa4_arboles_medios_5
+  - first:
+      213: 656223364038151524
+    second: capa4_arboles_medios_6
+  - first:
+      213: 2061531864885090233
+    second: capa4_arboles_medios_7
+  - first:
+      213: 1168434776405173069
+    second: capa4_arboles_medios_8
+  - first:
+      213: 624940141807131032
+    second: capa4_arboles_medios_9
+  - first:
+      213: 636134242604480303
+    second: capa4_arboles_medios_10
+  - first:
+      213: -6016458688441715653
+    second: capa4_arboles_medios_11
+  - first:
+      213: -1591680128162707016
+    second: capa4_arboles_medios_12
+  - first:
+      213: 2507796686709697931
+    second: capa4_arboles_medios_13
+  - first:
+      213: -175043744777929789
+    second: capa4_arboles_medios_14
+  - first:
+      213: -1110509908954356402
+    second: capa4_arboles_medios_15
+  - first:
+      213: 454046095871935084
+    second: capa4_arboles_medios_16
+  - first:
+      213: -8219103047638954796
+    second: capa4_arboles_medios_17
+  - first:
+      213: 7836809001125889168
+    second: capa4_arboles_medios_18
+  - first:
+      213: -6366656816379897711
+    second: capa4_arboles_medios_19
+  - first:
+      213: -7998303387860688182
+    second: capa4_arboles_medios_20
+  - first:
+      213: 5656099747644164435
+    second: capa4_arboles_medios_21
+  - first:
+      213: 4598774558060387270
+    second: capa4_arboles_medios_22
+  - first:
+      213: 475750959966904185
+    second: capa4_arboles_medios_23
+  - first:
+      213: 2445540221930449244
+    second: capa4_arboles_medios_24
+  - first:
+      213: -4271397231918165952
+    second: capa4_arboles_medios_25
+  - first:
+      213: 4964539825059380748
+    second: capa4_arboles_medios_26
+  - first:
+      213: 5511839530024569420
+    second: capa4_arboles_medios_27
+  - first:
+      213: 2172681550828067360
+    second: capa4_arboles_medios_28
+  - first:
+      213: -1055604145177678727
+    second: capa4_arboles_medios_29
+  - first:
+      213: 5832712715747051165
+    second: capa4_arboles_medios_30
+  - first:
+      213: 1373904810407477979
+    second: capa4_arboles_medios_31
+  - first:
+      213: 5754969992010419661
+    second: capa4_arboles_medios_32
+  - first:
+      213: -6409064071182940033
+    second: capa4_arboles_medios_33
+  - first:
+      213: -5869466572547882365
+    second: capa4_arboles_medios_34
+  - first:
+      213: -5569134326748107497
+    second: capa4_arboles_medios_35
+  - first:
+      213: -1505493502646449361
+    second: capa4_arboles_medios_36
+  - first:
+      213: 310102395777212517
+    second: capa4_arboles_medios_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: capa4_arboles_medios_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 519
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf4a42b36b1a5b4cabc8e87ca0e9d89
+      internalID: -4867927640115613206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fabfcfe4d817efb48a19fcbf1317660e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      capa4_arboles_medios_0: -4867927640115613206
+      capa4_arboles_medios_1: 8359367582321462825
+      capa4_arboles_medios_10: 636134242604480303
+      capa4_arboles_medios_11: -6016458688441715653
+      capa4_arboles_medios_12: -1591680128162707016
+      capa4_arboles_medios_13: 2507796686709697931
+      capa4_arboles_medios_14: -175043744777929789
+      capa4_arboles_medios_15: -1110509908954356402
+      capa4_arboles_medios_16: 454046095871935084
+      capa4_arboles_medios_17: -8219103047638954796
+      capa4_arboles_medios_18: 7836809001125889168
+      capa4_arboles_medios_19: -6366656816379897711
+      capa4_arboles_medios_2: -4383283776885802397
+      capa4_arboles_medios_20: -7998303387860688182
+      capa4_arboles_medios_21: 5656099747644164435
+      capa4_arboles_medios_22: 4598774558060387270
+      capa4_arboles_medios_23: 475750959966904185
+      capa4_arboles_medios_24: 2445540221930449244
+      capa4_arboles_medios_25: -4271397231918165952
+      capa4_arboles_medios_26: 4964539825059380748
+      capa4_arboles_medios_27: 5511839530024569420
+      capa4_arboles_medios_28: 2172681550828067360
+      capa4_arboles_medios_29: -1055604145177678727
+      capa4_arboles_medios_3: -1377516198960743538
+      capa4_arboles_medios_30: 5832712715747051165
+      capa4_arboles_medios_31: 1373904810407477979
+      capa4_arboles_medios_32: 5754969992010419661
+      capa4_arboles_medios_33: -6409064071182940033
+      capa4_arboles_medios_34: -5869466572547882365
+      capa4_arboles_medios_35: -5569134326748107497
+      capa4_arboles_medios_36: -1505493502646449361
+      capa4_arboles_medios_37: 310102395777212517
+      capa4_arboles_medios_4: 2254817675077043763
+      capa4_arboles_medios_5: 2048486641574153342
+      capa4_arboles_medios_6: 656223364038151524
+      capa4_arboles_medios_7: 2061531864885090233
+      capa4_arboles_medios_8: 1168434776405173069
+      capa4_arboles_medios_9: 624940141807131032
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
