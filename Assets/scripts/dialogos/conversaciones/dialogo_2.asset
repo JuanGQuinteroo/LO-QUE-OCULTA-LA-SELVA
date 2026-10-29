@@ -39,4 +39,16 @@ MonoBehaviour:
     text: "\xBFc-como lo sabes? "
   - speakerName: 'rana '
     portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
-    text: 'sigueme, te contare la historia en el camino '
+    text: 'la conozco porque es el espiritu vengativo de una madre que perdio a sus
+      hijos '
+  - speakerName: 'rana '
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: 'la llorona es un alma en pena que vaga por las profundidades de los bosques
+      buscando a sus ya fallecidos hijos '
+  - speakerName: 'rana '
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: 'ten por seguro una cosa, si te atrapa, jamas podras salir de este bosque
+      nunca mas '
+  - speakerName: 'rana '
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: conozco a alguien que te puede ayudar, sigueme

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab2f4436a98cab449e5e1ec61165e48, type: 3}
+  m_Name: prueba_2
+  m_EditorClassIdentifier: Assembly-CSharp::BranchingDialogueData
+  nodes:
+  - id: 
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: "muy bien, es por aqui... \xBFque tan valiente crees que eres?"
+    options:
+    - text: soy muy valiente
+      nextId: 1
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: "\xBFme estas llamando cobarde? "
+      nextId: 2
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    nextId: 
+  - id: 1
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: "ujum... \xA1que buena respuesta! tal vez seas un ni\xF1o pero al menos
+      no te acobardas como los demas personas que me han visto"
+    options: []
+    nextId: 3
+  - id: 2
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: "jajaja, esta bien tener miedo peque\xF1o, el problema es no querer tomar
+      una decision por el miedo al fracaso"
+    options: []
+    nextId: 3
+  - id: 3
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: escuchame, tendras que mostrar tu valor y saltar lo mas que puedas al otro
+      lado del arroyo, solo asi podras encontrar el camino a tu hogar
+    options:
+    - text: "\xBF\xA1\xA1estas loco!!?"
+      nextId: 4
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: "\xBF\xA1\xA1no existe otro camino!!?"
+      nextId: 5
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    nextId: 0
+  - id: 4
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: si de verdad quieres volver a tu hogar a salvo, tendras que arriesgarte
+      esta vez
+    options: []
+    nextId: 6
+  - id: 5
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: si quieres escapar de las garras de quien te persigue, es por aqui, si
+      te quedas mucho tiempo en este bosque, jamas podras volver a salir
+    options: []
+    nextId: 6
+  - id: 6
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: "si te encuentras con ella busca esconderte en los arbustos antes de que
+      sea demasiado tarde, si no... no creo que deba decir mas, \xBFno?"
+    options: []
+    nextId: 0

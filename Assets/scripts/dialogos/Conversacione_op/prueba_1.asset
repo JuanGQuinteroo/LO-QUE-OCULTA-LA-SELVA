@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab2f4436a98cab449e5e1ec61165e48, type: 3}
+  m_Name: prueba_1
+  m_EditorClassIdentifier: Assembly-CSharp::BranchingDialogueData
+  nodes:
+  - id: inicio
+    speakerName: ????
+    portrait: {fileID: -154809146725036345, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: hola hijo
+    options:
+    - text: "\xBFq-quien eres?"
+      nextId: 1
+      onChosen:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: 
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: "\xBFe-eres un monstruo? "
+      nextId: 2
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    nextId: 
+  - id: 1
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: soy el hojarasquin, soy uno de los guardianes que protege el bosque y sus
+      criaturas
+    options: []
+    nextId: 3
+  - id: 2
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: jajaja... no soy un monstruo, aunque tal vez algunas personas me vean asi
+    options: []
+    nextId: 3
+  - id: 3
+    speakerName: miguel
+    portrait: {fileID: 6823381380481023060, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: "\xBFp-puedes a ayudarme a salir de aqui?"
+    options: []
+    nextId: 4
+  - id: 4
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: "antes de eso me gustaria preguntarte, \xBFcomo terminaste en el bosque?"
+    options:
+    - text: cometi algo terrible y me escape al bosque
+      nextId: 5
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: ...me perdi buscando a alguien
+      nextId: 6
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    nextId: 
+  - id: 5
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: ya veo... lo que sea que hayas hecho no creo que no tenga solucion, eres
+      demasiado joven y aun te queda mucho por aprender, no es el fin del mundo
+    options: []
+    nextId: 7
+  - id: 6
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: hmm... no siento anadie mas que a ti perdido en este bosque, asi que supongo
+      que tu amigo esta bien
+    options: []
+    nextId: 7
+  - id: 7
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: sigueme, te mostrare el camino, tambien... hay alguien que te persigue...
+      incluso despues de muerta sigue buscando a sus hijos... no se si tanto amor
+      sea una virtud o una maldicion...
+    options: []
+    nextId: 0

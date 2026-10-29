@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 // Pon este script en el nuevo personaje. Cuando Miguel se acerca a "triggerDistance",
@@ -7,6 +8,10 @@ public class DialogueNPC : MonoBehaviour
 {
     [Header("Conversación")]
     [SerializeField] private DialogueData dialogue;
+
+    [Header("Al terminar el diálogo")]
+    [Tooltip("Se dispara cuando se cierra la última línea. Ej: arrastra aquí a La Llorona y elige LloronaAI > Activate")]
+    [SerializeField] private UnityEvent onDialogueFinished;
 
     [Header("Activación por distancia")]
     [SerializeField] private float triggerDistance = 4f;
@@ -103,7 +108,8 @@ public class DialogueNPC : MonoBehaviour
 
         if (interactPrompt != null) interactPrompt.SetActive(false);
 
-        DialogueManager.Instance.StartDialogue(dialogue);
+        // El callback se ejecuta cuando el diálogo termina
+        DialogueManager.Instance.StartDialogue(dialogue, () => onDialogueFinished?.Invoke());
     }
 
     private void OnDrawGizmosSelected()

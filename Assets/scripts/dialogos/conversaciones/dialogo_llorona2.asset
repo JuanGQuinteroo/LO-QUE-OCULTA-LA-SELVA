@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adcac72487b1e34aa5d3edc54efc136, type: 3}
+  m_Name: dialogo_llorona2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: Llorona
+    portrait: {fileID: -5069110426689000183, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: "\xBF\xA1por que te fuiste!?"
+  - speakerName: Llorona
+    portrait: {fileID: -5069110426689000183, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: "por que, por que... \xA1\xA1por que!! \xA1\xA1por que!! \xA1\xA1por que!!
+      \xA1\xA1por que!! \xA1\xA1por que!! \xA1\xA1por que!! \xA1\xA1por que!! \xA1\xA1por
+      que!! \xA1\xA1por que!! \xA1\xA1por que!! \xA1\xA1por que!!"
+  - speakerName: miguel
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: "\xA1\xA1A-ALEJATE DE MI!!"

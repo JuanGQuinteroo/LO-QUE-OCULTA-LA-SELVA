@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab2f4436a98cab449e5e1ec61165e48, type: 3}
+  m_Name: prueba_4
+  m_EditorClassIdentifier: Assembly-CSharp::BranchingDialogueData
+  nodes:
+  - id: 
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: cierto... se me olvido decirte algo...
+    options:
+    - text: "\xBFe-esa cosa aun me persigue?"
+      nextId: 0
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: "\xBFque sucede?"
+      nextId: 1
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    nextId: 
+  - id: 0
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: no, me encargue de extraviarla muy bien como a esos tipos que trataban
+      de quemar el bosque, nunca mas pudieron salir, jejeje
+    options: []
+    nextId: 2
+  - id: 1
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: es algo que me pidieron que te dijera personalmente... ya que no es capaz
+      de salir del bosque me lo pidio a mi...
+    options: []
+    nextId: 2
+  - id: 2
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: "el peque\xF1o renacuajo dice \"felicidades por salir, me alegro mucho
+      por ti compa\""
+    options: []
+    nextId: 3
+  - id: 3
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: '"al menos tu si fuiste capaz de hacerlo"'
+    options: []
+    nextId: 4
+  - id: 4
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: '"no sabes lo triste que es que tu familia te busque sin saber que ya no
+      vas a volver"'
+    options: []
+    nextId: 5
+  - id: 5
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: '"no importa lo malo que hayas hecho, de seguro todo se solucionara, hasta
+      pronto amigo"'
+    options: []
+    nextId: 

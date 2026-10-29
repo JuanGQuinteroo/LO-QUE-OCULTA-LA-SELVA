@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab2f4436a98cab449e5e1ec61165e48, type: 3}
+  m_Name: prueba_3
+  m_EditorClassIdentifier: Assembly-CSharp::BranchingDialogueData
+  nodes:
+  - id: 
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: lo... lograste... esta vez... si se pudo...
+    options:
+    - text: "\xBFa que te refieres?"
+      nextId: 0
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: bueno, no fue tan dificil como esperaba
+      nextId: 1
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    nextId: 
+  - id: 0
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: no, nada... alguien tambien vino a mi pidiendo ayuda, le mostre el camino
+      mas seguro para salir... pero... no lo logro a tiempo... cuando vino otra vez
+      a mi... crei que me reclamaria pero...
+    options: []
+    nextId: 2
+  - id: 1
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: "si... lograste salir, \xA1es una buena noticia!"
+    options: []
+    nextId: 2
+  - id: 2
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: "anda, corre, \xA1tu familia te esta esperando! "
+    options:
+    - text: m-muchas gracias...
+      nextId: 3
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: casi te encargas de hacerme desaparecer
+      nextId: 3
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    nextId: 
+  - id: 3
+    speakerName: hojarasquin
+    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    text: '...... '
+    options: []
+    nextId: 
