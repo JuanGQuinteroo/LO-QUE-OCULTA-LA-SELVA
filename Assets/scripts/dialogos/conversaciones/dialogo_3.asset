@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adcac72487b1e34aa5d3edc54efc136, type: 3}
+  m_Name: dialogo_3
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: Rana Dorada
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: "Muy bien, ya nos alejamos lo suficiente, ahora, cuentame, \xBFque demonios
+      hace un ni\xF1o perdido en esta parte de la selva?"
+  - speakerName: Miguel
+    portrait: {fileID: -5202054706885358483, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: Oye!, casi me matan... me dejaste tirado!
+  - speakerName: Rana Dorada
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: "\xBFTus padres nunca te dijeron que era peligroso adentrarse mucho en
+      la selva?"
+  - speakerName: Miguel
+    portrait: {fileID: 6823381380481023060, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: 'B-Bueno, yo... me perdi '
+  - speakerName: 'Miguel '
+    portrait: {fileID: 6823381380481023060, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: "Luego una se\xF1ora dijo que conocia una salida y cuando me negue a seguirla
+      se convirtio en un monstruo y comenzo a perseguirme"
+  - speakerName: Rana Dorada
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: ....
+  - speakerName: Rana Dorada
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: 'Solo por curiosidad, quien te perseguia decia "donde estan mis hijos?" '
+  - speakerName: 'Miguel '
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: "\xBFC-Como lo sabes? "
+  - speakerName: Rana Dorada
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: 'La conozco, es el espiritu vengativo de una madre que perdio a sus hijos. '
+  - speakerName: Rana Dorada
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: 'La llorona es un alma en pena que vaga por las profundidades de los bosques
+      buscando a sus ya fallecidos hijos '
+  - speakerName: Rana Dorada
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: 'Ten por seguro una cosa, si te atrapa, jamas podras salir de este bosque
+      nunca mas '
+  - speakerName: Rana Dorada
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: Conozco a alguien que te puede ayudar, sigueme ...

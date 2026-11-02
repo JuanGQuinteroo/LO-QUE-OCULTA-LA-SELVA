@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab2f4436a98cab449e5e1ec61165e48, type: 3}
+  m_Name: Hoja3
+  m_EditorClassIdentifier: Assembly-CSharp::BranchingDialogueData
+  nodes:
+  - id: 
+    speakerName: Hojarasquin
+    portrait: {fileID: -5111479039337687088, guid: 63ccf637a62098741810af6343a82f81, type: 3}
+    text: Lo... lograste... esta vez... si se pudo...
+    options:
+    - text: "\xBFA que te refieres?"
+      nextId: 0
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: Bueno, no fue tan dificil como esperaba
+      nextId: 1
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    nextId: 0
+  - id: 0
+    speakerName: Hojarasquin
+    portrait: {fileID: 1079729053982481766, guid: 63ccf637a62098741810af6343a82f81, type: 3}
+    text: 'No, nada... alguien tambien vino a mi pidiendo ayuda, le mostre el camino
+      mas seguro para salir... '
+    options: []
+    nextId: 1
+  - id: 1
+    speakerName: Hojarasquin
+    portrait: {fileID: 4462667484859246341, guid: 63ccf637a62098741810af6343a82f81, type: 3}
+    text: Pero... no lo logro a tiempo... cuando vino otra vez a mi... crei que me
+      reclamaria pero...
+    options: []
+    nextId: 2
+  - id: 2
+    speakerName: hojarasquin
+    portrait: {fileID: 6310111613251392281, guid: 63ccf637a62098741810af6343a82f81, type: 3}
+    text: "Si lograste salir, \xA1es una buena noticia!"
+    options: []
+    nextId: 3
+  - id: 3
+    speakerName: Hojarasquin
+    portrait: {fileID: 6310111613251392281, guid: 63ccf637a62098741810af6343a82f81, type: 3}
+    text: "Anda, corre, \xA1tu familia te esta esperando! "
+    options:
+    - text: M-Muchas gracias...
+      nextId: 3
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: Casi te encargas de hacerme desaparecer
+      nextId: 3
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    nextId: 
+  - id: 3
+    speakerName: Hojarasquin
+    portrait: {fileID: -5111479039337687088, guid: 63ccf637a62098741810af6343a82f81, type: 3}
+    text: ...
+    options: []
+    nextId: 

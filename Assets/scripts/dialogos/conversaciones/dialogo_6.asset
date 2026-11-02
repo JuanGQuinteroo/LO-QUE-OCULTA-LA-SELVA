@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adcac72487b1e34aa5d3edc54efc136, type: 3}
+  m_Name: dialogo_6
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: Rana Dorada
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: 'Eso estuvo muy cerca, esta vez estaba muy enojada.
+
+
+      De no ser por
+      que te escondieras...'
+  - speakerName: Miguel
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: Estoy agitado, y cansado, esta vez casi me mata!
+  - speakerName: Rana Dorada
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: "Oye, ten cuidado con saltar bien ese arroyo, el Hojarasquin te ha dicho
+      el camino. \n\nEchale ganas que tu puedes."
+  - speakerName: Miguel
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: 'Okey, lo hare, lo hare.
+
+      Esta vez saltare bien y no caera de nuevo!'
+  - speakerName: Rana Dorada
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: 'Yo se que si.
+
+      Exitos Miguel.'

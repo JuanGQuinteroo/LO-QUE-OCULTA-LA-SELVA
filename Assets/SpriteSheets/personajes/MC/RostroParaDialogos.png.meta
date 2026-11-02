@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: a6869cb4915bd344eac43cb7806023d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6823381380481023060
+    second: RostroParaDialogos_0
+  - first:
+      213: 8012021918966755687
+    second: RostroParaDialogos_1
+  - first:
+      213: -5202054706885358483
+    second: RostroParaDialogos_2
+  - first:
+      213: 3305584300917870274
+    second: RostroParaDialogos_3
+  - first:
+      213: -3940290620311416003
+    second: RostroParaDialogos_4
+  - first:
+      213: 1851323311241321520
+    second: RostroParaDialogos_5
+  - first:
+      213: 5656298604565568526
+    second: RostroParaDialogos_6
+  - first:
+      213: 2075745293178645876
+    second: RostroParaDialogos_7
+  - first:
+      213: -4163383705552772138
+    second: RostroParaDialogos_8
+  - first:
+      213: -890769395786021518
+    second: RostroParaDialogos_9
+  - first:
+      213: 246015921661111349
+    second: RostroParaDialogos_10
+  - first:
+      213: -5020298389049431895
+    second: RostroParaDialogos_11
+  - first:
+      213: 6053781008982766616
+    second: RostroParaDialogos_12
+  - first:
+      213: 6133182777499819198
+    second: RostroParaDialogos_13
+  - first:
+      213: -1931407720955057561
+    second: RostroParaDialogos_14
+  - first:
+      213: -8222797162990052585
+    second: RostroParaDialogos_15
+  - first:
+      213: 2057740374979362818
+    second: RostroParaDialogos_16
+  - first:
+      213: -7344489864600930777
+    second: RostroParaDialogos_17
+  - first:
+      213: -5025252313409710934
+    second: RostroParaDialogos_18
+  - first:
+      213: -3239185036733727806
+    second: RostroParaDialogos_19
+  - first:
+      213: 4455041630960255260
+    second: RostroParaDialogos_20
+  - first:
+      213: -7158536773168646604
+    second: RostroParaDialogos_21
+  - first:
+      213: -4043774370881633503
+    second: RostroParaDialogos_22
+  - first:
+      213: 851464827564433929
+    second: RostroParaDialogos_23
+  - first:
+      213: 7593554253517916858
+    second: RostroParaDialogos_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RostroParaDialogos_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 45
+        width: 498
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cf596b63581be50800000000000000
+      internalID: 6823381380481023060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RostroParaDialogos_1
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 46
+        width: 473
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76138ac5c7b603f60800000000000000
+      internalID: 8012021918966755687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RostroParaDialogos_2
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 46
+        width: 473
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c03f54ec69ec7b0800000000000000
+      internalID: -5202054706885358483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RostroParaDialogos_3
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 44
+        width: 493
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce415f686bcfdd20800000000000000
+      internalID: 3305584300917870274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a68ce099888b57341993ae4300c40597
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RostroParaDialogos_0: 6823381380481023060
+      RostroParaDialogos_1: 8012021918966755687
+      RostroParaDialogos_10: 246015921661111349
+      RostroParaDialogos_11: -5020298389049431895
+      RostroParaDialogos_12: 6053781008982766616
+      RostroParaDialogos_13: 6133182777499819198
+      RostroParaDialogos_14: -1931407720955057561
+      RostroParaDialogos_15: -8222797162990052585
+      RostroParaDialogos_16: 2057740374979362818
+      RostroParaDialogos_17: -7344489864600930777
+      RostroParaDialogos_18: -5025252313409710934
+      RostroParaDialogos_19: -3239185036733727806
+      RostroParaDialogos_2: -5202054706885358483
+      RostroParaDialogos_20: 4455041630960255260
+      RostroParaDialogos_21: -7158536773168646604
+      RostroParaDialogos_22: -4043774370881633503
+      RostroParaDialogos_23: 851464827564433929
+      RostroParaDialogos_24: 7593554253517916858
+      RostroParaDialogos_3: 3305584300917870274
+      RostroParaDialogos_4: -3940290620311416003
+      RostroParaDialogos_5: 1851323311241321520
+      RostroParaDialogos_6: 5656298604565568526
+      RostroParaDialogos_7: 2075745293178645876
+      RostroParaDialogos_8: -4163383705552772138
+      RostroParaDialogos_9: -890769395786021518
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

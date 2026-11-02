@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adcac72487b1e34aa5d3edc54efc136, type: 3}
+  m_Name: dialogo_1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: ???
+    portrait: {fileID: -154809146725036345, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: "Oye... estas bien? \n"
+  - speakerName: Miguel
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: "\xBFQ-Quien anda ahi...?"
+  - speakerName: ???
+    portrait: {fileID: -154809146725036345, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: Tu peor pesadilla... jajaja
+  - speakerName: Rana
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: No, en serio, estas bien?
+  - speakerName: Rana
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: "No veo a muchos ni\xF1os caer desde tan alto desde la ultima vez que le
+      robamos mangos a un vecino (aquel ni\xF1o cay\xF3  muy charro)"
+  - speakerName: Miguel
+    portrait: {fileID: -5202054706885358483, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: Una rana???
+  - speakerName: Miguel
+    portrait: {fileID: -5202054706885358483, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: Que tan duro me golpee la cabeza? las ranas no hablan...
+  - speakerName: Miguel
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: "\xBFE-Eres amigo de esa cosa?"
+  - speakerName: Rana
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: "\xBFDe quien?, espera... alguien muy aterrador esta rondando por aqui"
+  - speakerName: Rana
+    portrait: {fileID: 2704927991928300174, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: Lo mejor sera alejarnos lo mas que podamos aqui, te veo alla abajo, jaja.

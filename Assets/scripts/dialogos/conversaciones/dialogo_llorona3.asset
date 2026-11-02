@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adcac72487b1e34aa5d3edc54efc136, type: 3}
+  m_Name: dialogo_llorona3
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: ???
+    portrait: {fileID: -6330137130904030180, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: "JAJAJAJA... oye, Miguel, me extra\xF1aste?"
+  - speakerName: Miguel
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: Otra vez tu?!, es que estas en todas partes??!!
+  - speakerName: ???
+    portrait: {fileID: 5671780370391936197, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: Deja de escapar de mi, no te volvere a perder...
+  - speakerName: Miguel
+    portrait: {fileID: 6823381380481023060, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: Oye, jugador, creo que deberias esconderte y correr o nos mataran jajaja.
+  - speakerName: Miguel
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: Ahi viene!!!

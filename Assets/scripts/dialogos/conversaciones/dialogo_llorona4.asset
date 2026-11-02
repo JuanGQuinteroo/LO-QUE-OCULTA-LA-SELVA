@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adcac72487b1e34aa5d3edc54efc136, type: 3}
+  m_Name: dialogo_llorona4
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: Llorona
+    portrait: {fileID: -8144600344242062861, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: 'No lo puedo creer, Miguel.
+
+
+      Has hecho llorar a tu madre, porque
+      escapas de mi?!!'
+  - speakerName: Miguel
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: Oye, no soy tu hijo, ya dejame.
+  - speakerName: Llorona
+    portrait: {fileID: -2410446748868070700, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: 'M-Miguel, M-Miguel; que estas diciendo?!!.
+
+
+      AAAAHHHH!!!. TE MATAREEEEEEE!!!'

@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab2f4436a98cab449e5e1ec61165e48, type: 3}
+  m_Name: Hoja1
+  m_EditorClassIdentifier: Assembly-CSharp::BranchingDialogueData
+  nodes:
+  - id: inicio
+    speakerName: ???
+    portrait: {fileID: -154809146725036345, guid: cb88951471b02b646ae8963058cc7373, type: 3}
+    text: Hola hijo...
+    options:
+    - text: "\xBFQ-Quien eres?"
+      nextId: 1
+      onChosen:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: 
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: "\xBFE-Eres un mito o una leyenda? "
+      nextId: 2
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    nextId: 
+  - id: 1
+    speakerName: Hojarasquin
+    portrait: {fileID: 6310111613251392281, guid: 63ccf637a62098741810af6343a82f81, type: 3}
+    text: Soy el Hojarasquin, uno de los guardianes que protege la selva y sus criaturas.
+    options: []
+    nextId: 3
+  - id: 2
+    speakerName: Hojarasquin
+    portrait: {fileID: 6310111613251392281, guid: 63ccf637a62098741810af6343a82f81, type: 3}
+    text: jajaja... soy el Hojarasquin, si soy un mito o una leyenda, tu deberias
+      saberlo; tus padres te han hablado de mi, aunque tal vez algunas personas me
+      vean asi.
+    options: []
+    nextId: 3
+  - id: 3
+    speakerName: Miguel
+    portrait: {fileID: 6823381380481023060, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: "\xBFP-Puedes a ayudarme a salir de aqui?"
+    options: []
+    nextId: 4
+  - id: 4
+    speakerName: Hojarasquin
+    portrait: {fileID: -5111479039337687088, guid: 63ccf637a62098741810af6343a82f81, type: 3}
+    text: "Antes de eso me gustaria preguntarte, \xBFcomo terminaste en esta basta
+      selva andina?, lejos de tus padres."
+    options:
+    - text: Hice algo no muy bueno, y corri al bosque
+      nextId: 5
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: ...Me perdi buscando a alguien
+      nextId: 6
+      onChosen:
+        m_PersistentCalls:
+          m_Calls: []
+    nextId: 
+  - id: 5
+    speakerName: Hojarasquin
+    portrait: {fileID: 1079729053982481766, guid: 63ccf637a62098741810af6343a82f81, type: 3}
+    text: Ya veo... lo que sea que hayas hecho no creo que no tenga solucion, eres
+      demasiado joven y aun te queda mucho por aprender, no es el fin del mundo
+    options: []
+    nextId: 7
+  - id: 6
+    speakerName: hojarasquin
+    portrait: {fileID: 1079729053982481766, guid: 63ccf637a62098741810af6343a82f81, type: 3}
+    text: Hmm... no siento a nadie mas que a ti perdido en este bosque, asi que supongo
+      que tu amigo esta bien. Deberias preocuparte por volver a casa.
+    options: []
+    nextId: 7
+  - id: 7
+    speakerName: Hojarasquin
+    portrait: {fileID: 6310111613251392281, guid: 63ccf637a62098741810af6343a82f81, type: 3}
+    text: Sigueme, te mostrare el camino...
+    options: []
+    nextId: 8
+  - id: 8
+    speakerName: Hojarasquin
+    portrait: {fileID: 4462667484859246341, guid: 63ccf637a62098741810af6343a82f81, type: 3}
+    text: Hay alguien que te persigue... incluso despues de muerta sigue buscando
+      a sus hijos... no se si tanto amor sea una virtud o una maldicion
+    options: []
+    nextId: 9
+  - id: 9
+    speakerName: Miguel
+    portrait: {fileID: 6823381380481023060, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: Fue aterrador... ayudame a volver a casa; por favor
+    options: []
+    nextId: 0

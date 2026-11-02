@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adcac72487b1e34aa5d3edc54efc136, type: 3}
+  m_Name: dialogo_llorona5
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: Llorona
+    portrait: {fileID: -4892473464771016505, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: "Oh, Miguel... , Miguel. \n\nHas escapado muchas veces de mi."
+  - speakerName: Llorona
+    portrait: {fileID: -8603735512152966788, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: "por que, por que... \xA1\xA1por que!! \xA1\xA1por que!! \xA1\xA1por que!!
+      \xA1\xA1por que!! \xA1\xA1por que!! \xA1\xA1por que!! \xA1\xA1por que!! \xA1\xA1por
+      que!! \xA1\xA1por que!! \xA1\xA1por que!! \xA1\xA1por que!!"
+  - speakerName: Llorona
+    portrait: {fileID: -358866238521958013, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: Has dejado sola a tu madre, y has sido grosero. Eres un hijo bastardo,
+      me has herido
+  - speakerName: Llorona
+    portrait: {fileID: -5069110426689000183, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: Me has... herido, eres un maldito.
+  - speakerName: Miguel
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: Oye, CALMATE!!
+  - speakerName: Miguel
+    portrait: {fileID: -2410446748868070700, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: QUE ME CALME, DICES?!
+  - speakerName: Llorona
+    portrait: {fileID: 5671780370391936197, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: ERES UN MALDITO; TE MATAREE!
+  - speakerName: Llorona
+    portrait: {fileID: -8937693648130997975, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: TE... MATARE!
+  - speakerName: Llorona
+    portrait: {fileID: -6330137130904030180, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: TE...MATARE!, TE PARTIRE EN TROZOS, MIGUEL
+  - speakerName: Miguel
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: MAMA, CALMA, YA TODO ESTA BIEN, OKEY?, YO TE HARE CASO
+  - speakerName: Llorona
+    portrait: {fileID: 6287141567209567271, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: MALDITO.
+  - speakerName: Llorona
+    portrait: {fileID: 3072726263244456292, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: "NO VOLVERAS A ENGA\xD1ARME"
+  - speakerName: Llorona
+    portrait: {fileID: 5510030184843936305, guid: 57fc9b59f68af8b43b8f7a7cf2867cfa, type: 3}
+    text: MALDITO, SERA MEJOR QUE SEPAS CORRER ESTA VEZ.
+  - speakerName: Miguel
+    portrait: {fileID: 3305584300917870274, guid: a6869cb4915bd344eac43cb7806023d2, type: 3}
+    text: "AHHHHHHH!!!\n\xA1\xA1A-ALEJATE DE MI!!"
