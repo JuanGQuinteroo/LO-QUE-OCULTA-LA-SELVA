@@ -45,7 +45,7 @@ MonoBehaviour:
     nextId: 3
   - id: 3
     speakerName: Hojarasquin
-    portrait: {fileID: -7638036672690264970, guid: 06cfaa7d6cd29e6488bc1905a701f1cc, type: 3}
+    portrait: {fileID: -5111479039337687088, guid: 63ccf637a62098741810af6343a82f81, type: 3}
     text: Escuchame, tendras que mostrar tu valor y saltar lo mas que puedas al otro
       lado del arroyo, solo asi podras encontrar el camino a tu hogar
     options:

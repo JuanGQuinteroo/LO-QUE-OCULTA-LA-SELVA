@@ -11,7 +11,12 @@ public class MusicManager : MonoBehaviour
     [Tooltip("Tiempo en segundos que tarda la transición de volumen")]
     [SerializeField] private float fadeDuration = 0.8f;
 
+    [Header("Persistencia de Peligro")]
+    [Tooltip("Distancia a la que debe alejarse La Llorona para que la música vuelva a la calma aunque estés escondido")]
+    [SerializeField] private float safeDistance = 8f;
+
     private bool currentlyChasing = false;
+    private bool inAlertMode = false; // Mantiene la música sonando en el escondite
     private Coroutine transitionCoroutine;
 
     private float maxAmbientVolume = 0.5f;
@@ -46,25 +51,52 @@ public class MusicManager : MonoBehaviour
 
     void Update()
     {
-        // Buscamos a TODAS las Lloronas que existan en la escena
         LloronaAI[] allLloronas = FindObjectsByType<LloronaAI>(FindObjectsSortMode.None);
+        Transform player = FindFirstObjectByType<miguel_moviments>()?.transform;
 
         bool isAnyChasing = false;
+        bool isAnyClose = false;
 
-        // Si CUALQUIERA de ellas te está persiguiendo, activamos la alerta
+        // Comprobamos el estado de las Lloronas vivas
         foreach (var llorona in allLloronas)
         {
-            if (llorona != null && llorona.IsChasing)
+            if (llorona != null && llorona.IsActive)
             {
-                isAnyChasing = true;
-                break;
+                if (llorona.IsChasing)
+                {
+                    isAnyChasing = true;
+                }
+
+                if (player != null)
+                {
+                    float dist = Vector2.Distance(player.position, llorona.transform.position);
+                    if (dist <= safeDistance)
+                    {
+                        isAnyClose = true;
+                    }
+                }
             }
         }
 
-        // Detectar cambio de estado (de calma a persecución o viceversa)
-        if (isAnyChasing != currentlyChasing)
+        // 1. Si te detecta y empieza a perseguir, entramos en MODO ALERTA
+        if (isAnyChasing)
         {
-            currentlyChasing = isAnyChasing;
+            inAlertMode = true;
+        }
+
+        // 2. Solo salimos del MODO ALERTA si:
+        // Ya no te persigue Y TAMBIÉN ya se alejó a más de la distancia segura (o murió)
+        if (inAlertMode && !isAnyChasing && !isAnyClose)
+        {
+            inAlertMode = false;
+        }
+
+        // 3. La música responderá a si estamos en Alerta
+        bool shouldPlayChase = inAlertMode;
+
+        if (shouldPlayChase != currentlyChasing)
+        {
+            currentlyChasing = shouldPlayChase;
 
             if (transitionCoroutine != null)
             {
@@ -87,9 +119,8 @@ public class MusicManager : MonoBehaviour
 
         if (chasing)
         {
-            Debug.Log("<color=red><b>[MusicManager]</b> ¡La Llorona te persigue! Entra música de persecución.</color>");
+            Debug.Log("<color=red><b>[MusicManager]</b> ¡Alerta activada! Entra música de tensión.</color>");
 
-            // Asegurar que la de persecución esté sonando
             if (chaseSource != null)
             {
                 chaseSource.loop = true;
@@ -98,9 +129,8 @@ public class MusicManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("<color=green><b>[MusicManager]</b> Escape exitoso. Volviendo a música ambiental.</color>");
+            Debug.Log("<color=green><b>[MusicManager]</b> Peligro superado. Volviendo a música ambiental.</color>");
 
-            // Reanudar la ambiental si estaba en pausa
             if (ambientSource != null && !ambientSource.isPlaying)
             {
                 ambientSource.UnPause();
@@ -121,17 +151,16 @@ public class MusicManager : MonoBehaviour
             yield return null;
         }
 
-        // Asegurar volúmenes finales
         if (ambientSource != null)
         {
             ambientSource.volume = targetAmbientVol;
-            if (chasing) ambientSource.Pause(); // Se pausa para continuar donde quedó
+            if (chasing) ambientSource.Pause();
         }
 
         if (chaseSource != null)
         {
             chaseSource.volume = targetChaseVol;
-            if (!chasing) chaseSource.Stop(); // Se apaga completamente al escapar
+            if (!chasing) chaseSource.Stop();
         }
     }
 }
