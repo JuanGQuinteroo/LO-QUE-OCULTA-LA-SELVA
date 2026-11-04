@@ -14,5 +14,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pantalla_victoria.unity
     guid: f3528651eee9ffc4a8219e9224b2b463
+  - enabled: 0
+    path: Assets/Scenes/Menu_Principal.unity
+    guid: 175a364a1fc43f541830d4b329948188
+  - enabled: 1
+    path: Assets/Scenes/cinematica_1.unity
+    guid: adaa635579680dd49b3fcded8db80552
+  - enabled: 1
+    path: Assets/Scenes/credito.unity
+    guid: b22afb25142c03449ac9f87290d651a7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
