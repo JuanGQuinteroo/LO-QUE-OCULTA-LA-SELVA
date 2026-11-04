@@ -5,6 +5,6 @@ public class MenuPrincipal : MonoBehaviour
 {
     public void Jugar()
     {
-        SceneManager.LoadScene("Nivel_LaLlorona"); // nombre exacto de tu primera escena
+        SceneManager.LoadScene("cinematica_1"); // nombre exacto de tu primera escena
     }
 }
