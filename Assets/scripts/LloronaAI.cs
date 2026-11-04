@@ -19,6 +19,7 @@ public class LloronaAI : MonoBehaviour
     [SerializeField] private Animator animator;
 
     [Header("Activación por diálogo")]
+    [Tooltip("Déjalo en FALSE si tiene diálogo previo. Márcalo en TRUE solo si es una emboscada directa sin diálogo.")]
     [SerializeField] private bool startActivated = false;
 
     [Header("Detención por objeto")]
@@ -50,6 +51,7 @@ public class LloronaAI : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         if (animator == null) animator = GetComponent<Animator>();
+
         isActivated = startActivated;
 
         if (spriteRenderer != null)
@@ -111,7 +113,6 @@ public class LloronaAI : MonoBehaviour
 
         UpdateAnimator();
     }
-
     private void Die()
     {
         if (isDead) return;
@@ -127,15 +128,11 @@ public class LloronaAI : MonoBehaviour
             animator.SetBool("isRun", false);
         }
 
-        // 3. Activar y despertar a la siguiente Llorona del nivel (si la configuraste)
+        // 3. Encender a la siguiente Llorona (aparece en el mapa, pero DORMIDA esperando su diálogo)
         if (nextLlorona != null)
         {
             nextLlorona.SetActive(true);
-            LloronaAI nextAI = nextLlorona.GetComponent<LloronaAI>();
-            if (nextAI != null)
-            {
-                nextAI.Activate();
-            }
+            // ¡OJO: No llamamos a Activate() aquí! El diálogo la despertará cuando termine.
         }
 
         // 4. Iniciar desvanecimiento fantasmal y destrucción
@@ -169,7 +166,14 @@ public class LloronaAI : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!IsActive || rb == null) return;
+        // Si no está activa (por ejemplo, durante el diálogo), no se mueve horizontalmente
+        if (!IsActive)
+        {
+            if (rb != null) rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+            return;
+        }
+
+        if (rb == null) return;
 
         float targetVelocityX = 0f;
 
